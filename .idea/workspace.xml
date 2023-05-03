@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e19e0-31fd-4bb1-887e-68f6abc555fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Products.java" afterDir="false" />
+    <list default="true" id="7b6e19e0-31fd-4bb1-887e-68f6abc555fc" name="Changes" comment=" Capstone project shopping APP. 3 model classes + ArrayList + CRUD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Products.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,14 @@
       <updated>1682976866299</updated>
       <workItem from="1682976867946" duration="249000" />
     </task>
+    <task id="LOCAL-00001" summary=" Capstone project shopping APP. 3 model classes + ArrayList + CRUD">
+      <created>1683078395713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683078395714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Capstone project shopping APP. 3 model classes + ArrayList + CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Capstone project shopping APP. 3 model classes + ArrayList + CRUD" />
   </component>
 </project>

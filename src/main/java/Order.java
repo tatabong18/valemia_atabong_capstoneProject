@@ -73,15 +73,26 @@ public class Order {
         return false;
     }
 
-    public static void printAllItems(ArrayList<Order> orders) {
+    public static void printAllItems
+            (ArrayList<Order> orders) {
         for (Order order : orders) {
-            System.out.println("Order #" + order.getOrderId() + ":");
-            for (Products product : order.getCart().getAllItems()) {
-                System.out.println("  " + product.getName() + " - " + product.getDescription() + " - $" + product.getPrice() + " - Quantity: " + product.getQuantity());
+            System.out.println("Order #" +
+                    order.getOrderId() + ":");
+            for (Products product : order.getCart()
+                    .getAllItems()) {
+                System.out.println("  " +
+                        product.getName() + " - " +
+                        product.getDescription() +
+                        " - $" + product.getPrice() +
+                        " - Quantity: " +
+                        product.getQuantity());
             }
-            System.out.println("Total Price: $" + order.getTotalPrice());
-            System.out.println("Shipping Address: " + order.getShippingAddress());
-            System.out.println("Billing Address: " + order.getBillingAddress());
+            System.out.println("Total Price: $" +
+                    order.getTotalPrice());
+            System.out.println("Shipping Address: " +
+                    order.getShippingAddress());
+            System.out.println("Billing Address: " +
+                    order.getBillingAddress());
         }
     }
 }
